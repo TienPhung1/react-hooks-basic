@@ -1,0 +1,41 @@
+@import "~bootstrap/scss/bootstrap";
+
+.blogs-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 10px;
+  justify-content: center;
+
+  .wrapper {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 0 10px;
+    min-width: 450px;
+    text-align: left !important;
+  }
+  .title {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .content {
+    padding: 10px 0;
+  }
+
+  .content-btn {
+  }
+
+  .delete-btn {
+  }
+}
+
+.add-new-btn {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.btn-modal {
+  margin-top: 10px;
+}
